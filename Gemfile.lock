@@ -1,0 +1,154 @@
+GIT
+  remote: https://github.com/prontolabs/pronto-brakeman.git
+  revision: e3810d9ac3a9e971769b78f96c3a7f4cff4dff12
+  specs:
+    pronto-brakeman (0.10.0)
+      brakeman (>= 3.2.0)
+      pronto (~> 0.10.0)
+
+GIT
+  remote: https://github.com/prontolabs/pronto-flay.git
+  revision: 51f1e362e44a3972902e692c96e9667fb7bcbd1b
+  specs:
+    pronto-flay (0.10.0)
+      flay (~> 2.8)
+      pronto (~> 0.10.0)
+
+GIT
+  remote: https://github.com/prontolabs/pronto-reek.git
+  revision: 23b4e2e2a44c95b1e8128c8927e663ad5498802f
+  specs:
+    pronto-reek (0.10.0)
+      pronto (~> 0.10.0)
+      reek (>= 4.2, < 6.0)
+
+GIT
+  remote: https://github.com/prontolabs/pronto.git
+  revision: 52c6a771cb5e6c3274b3f7d3f60122fb2f1c9d69
+  specs:
+    pronto (0.10.0)
+      gitlab (~> 4.4, >= 4.4.0)
+      httparty (>= 0.13.7)
+      octokit (~> 4.7, >= 4.7.0)
+      rainbow (>= 2.2, < 4.0)
+      rugged (~> 0.24, >= 0.23.0)
+      thor (>= 0.20.3, < 2.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    ast (2.4.0)
+    axiom-types (0.1.1)
+      descendants_tracker (~> 0.0.4)
+      ice_nine (~> 0.11.0)
+      thread_safe (~> 0.3, >= 0.3.1)
+    brakeman (4.8.2)
+    claide (1.0.3)
+    claide-plugins (0.9.2)
+      cork
+      nap
+      open4 (~> 1.3)
+    codeclimate-engine-rb (0.4.1)
+      virtus (~> 1.0)
+    coercible (1.0.0)
+      descendants_tracker (~> 0.0.1)
+    colored2 (3.1.2)
+    cork (0.3.0)
+      colored2 (~> 3.1)
+    danger (8.0.0)
+      claide (~> 1.0)
+      claide-plugins (>= 0.9.2)
+      colored2 (~> 3.1)
+      cork (~> 0.1)
+      faraday (>= 0.9.0, < 2.0)
+      faraday-http-cache (~> 2.0)
+      git (~> 1.7)
+      kramdown (~> 2.0)
+      kramdown-parser-gfm (~> 1.0)
+      no_proxy_fix
+      octokit (~> 4.7)
+      terminal-table (~> 1)
+    descendants_tracker (0.0.4)
+      thread_safe (~> 0.3, >= 0.3.1)
+    equalizer (0.0.11)
+    erubis (2.7.0)
+    faraday (1.0.1)
+      multipart-post (>= 1.2, < 3)
+    faraday-http-cache (2.2.0)
+      faraday (>= 0.8)
+    flay (2.12.1)
+      erubis (~> 2.7.0)
+      path_expander (~> 1.0)
+      ruby_parser (~> 3.0)
+      sexp_processor (~> 4.0)
+    git (1.7.0)
+      rchardet (~> 1.8)
+    gitlab (4.14.1)
+      httparty (~> 0.14, >= 0.14.0)
+      terminal-table (~> 1.5, >= 1.5.1)
+    httparty (0.18.0)
+      mime-types (~> 3.0)
+      multi_xml (>= 0.5.2)
+    ice_nine (0.11.2)
+    kramdown (2.2.1)
+      rexml
+    kramdown-parser-gfm (1.1.0)
+      kramdown (~> 2.0)
+    kwalify (0.7.2)
+    mime-types (3.3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2020.0512)
+    multi_xml (0.6.0)
+    multipart-post (2.1.1)
+    nap (1.1.0)
+    no_proxy_fix (0.1.2)
+    octokit (4.18.0)
+      faraday (>= 0.9)
+      sawyer (~> 0.8.0, >= 0.5.3)
+    open4 (1.3.4)
+    parser (2.7.1.2)
+      ast (~> 2.4.0)
+    path_expander (1.1.0)
+    psych (3.1.0)
+    public_suffix (4.0.5)
+    rainbow (3.0.0)
+    rchardet (1.8.0)
+    reek (5.6.0)
+      codeclimate-engine-rb (~> 0.4.0)
+      kwalify (~> 0.7.0)
+      parser (>= 2.5.0.0, < 2.8, != 2.5.1.1)
+      psych (~> 3.1.0)
+      rainbow (>= 2.0, < 4.0)
+    rexml (3.2.4)
+    ruby_parser (3.14.2)
+      sexp_processor (~> 4.9)
+    rugged (0.99.0)
+    sawyer (0.8.2)
+      addressable (>= 2.3.5)
+      faraday (> 0.8, < 2.0)
+    sexp_processor (4.14.1)
+    terminal-table (1.8.0)
+      unicode-display_width (~> 1.1, >= 1.1.1)
+    thor (1.0.1)
+    thread_safe (0.3.6)
+    unicode-display_width (1.7.0)
+    virtus (1.0.5)
+      axiom-types (~> 0.1)
+      coercible (~> 1.0)
+      descendants_tracker (~> 0.0, >= 0.0.3)
+      equalizer (~> 0.0, >= 0.0.9)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  danger
+  pronto!
+  pronto-brakeman!
+  pronto-flay!
+  pronto-reek!
+
+BUNDLED WITH
+   2.1.4
