@@ -1,4 +1,4 @@
-FROM ruby:2.6.5-stretch
+FROM ruby:2.6.6-stretch
 MAINTAINER Ermolaev Andrey
 
 RUN apt-get update \
@@ -20,3 +20,4 @@ RUN bundle install
 # after bundle install for fast build
 COPY danger_rules /danger_rules
 COPY Dangerfile /Dangerfile
+COPY .reek.yml /.reek.yml

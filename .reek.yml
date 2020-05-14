@@ -1,0 +1,9 @@
+detectors:
+  IrresponsibleModule:
+    enabled: false
+  DuplicateMethodCall:
+    max_calls: 3
+  UtilityFunction:
+    enabled: false
+  FeatureEnvy:
+    enabled: false
