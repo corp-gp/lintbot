@@ -21,3 +21,4 @@ RUN bundle install
 COPY danger_rules /danger_rules
 COPY Dangerfile /Dangerfile
 COPY .reek.yml /.reek.yml
+COPY .flayignore /.flayignore

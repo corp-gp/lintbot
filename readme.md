@@ -5,6 +5,7 @@
 - https://github.com/seattlerb/flay
 - https://github.com/danger/awesome-danger
 - https://github.com/evilmartians/terraforming-rails/tree/master/examples/danger/.danger
+- https://github.com/danphesl/linters
 
 ### Manuals
 - https://medium.com/inloopx/keep-your-codebase-cleaner-pt-i-danger-gitlab-setup-e70a1f5f6cc6
